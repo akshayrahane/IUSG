@@ -1,0 +1,320 @@
+A:active {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana, Tahoma; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana, Tahoma; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 11px; COLOR: #3894e5; FONT-FAMILY: Verdana, Tahoma; TEXT-DECORATION: none
+}
+A:link {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana, Tahoma; TEXT-DECORATION: none
+}
+#blue:link {
+	FONT-SIZE: 11px; COLOR: #0000cc; FONT-FAMILY: Verdana, Tahoma; TEXT-DECORATION: none
+}
+#blue:visited {
+	FONT-SIZE: 11px; COLOR: #0000cc; FONT-FAMILY: Verdana, Tahoma; TEXT-DECORATION: none
+}
+#blue:hover {
+	FONT-SIZE: 11px; COLOR: #0000cc; FONT-FAMILY: Verdana, Tahoma; TEXT-DECORATION: underline
+}
+#navlink:link {
+	FONT-SIZE: 11px; COLOR: #707070; FONT-FAMILY: Verdana, Tahoma; TEXT-DECORATION: none
+}
+#navlink:visited {
+	FONT-SIZE: 11px; COLOR: #707070; FONT-FAMILY: Verdana, Tahoma; TEXT-DECORATION: none
+}
+#navlink:hover {
+	FONT-SIZE: 11px; COLOR: orange; FONT-FAMILY: Verdana, Tahoma; TEXT-DECORATION: none
+}
+#white:link {
+	FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Verdana, Tahoma; TEXT-DECORATION: none
+}
+#white:visited {
+	FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Verdana, Tahoma; TEXT-DECORATION: none
+}
+#white:hover {
+	FONT-SIZE: 11px; COLOR: yellow; FONT-FAMILY: Verdana, Tahoma; TEXT-DECORATION: none
+}
+#moduletitle:link {
+	FONT-SIZE: 11px; COLOR: #277dc9; FONT-FAMILY: verdana, arial, helvetica, sans-serif; TEXT-DECORATION: none
+}
+#moduletitle:visited {
+	FONT-SIZE: 11px; COLOR: #277dc9; FONT-FAMILY: verdana, arial, helvetica, sans-serif; TEXT-DECORATION: none
+}
+#moduletitle:hover {
+	FONT-SIZE: 11px; COLOR: #ff7200; FONT-FAMILY: verdana, arial, helvetica, sans-serif; TEXT-DECORATION: underline
+}
+#footerlink:link {
+	FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: verdana, arial, helvetica, sans-serif; TEXT-DECORATION: none
+}
+#footerlink:visited {
+	FONT-SIZE: 11px; COLOR: #efefef; FONT-FAMILY: verdana, arial, helvetica, sans-serif; TEXT-DECORATION: none
+}
+#footerlink:hover {
+	FONT-SIZE: 11px; COLOR: orange; FONT-FAMILY: verdana, arial, helvetica, sans-serif; TEXT-DECORATION: underline
+}
+#newstitle:link {
+	FONT-SIZE: 15px; COLOR: #277dc9; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica; TEXT-DECORATION: none
+}
+#newstitle:visited {
+	FONT-SIZE: 15px; COLOR: #277dc9; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica; TEXT-DECORATION: none
+}
+#newstitle:hover {
+	FONT-SIZE: 15px; COLOR: red; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica; TEXT-DECORATION: none
+}
+.swiftbutton {
+	BORDER-RIGHT: #cccccc 2px solid; BORDER-TOP: #cccccc 2px solid; FONT-SIZE: 12px; BORDER-LEFT: #cccccc 2px solid; COLOR: #333333; BORDER-BOTTOM: #cccccc 2px solid; FONT-FAMILY: Verdana, Tahoma; BACKGROUND-COLOR: #ffffff
+}
+.bluebutton {
+	BORDER-RIGHT: #ffffff 0px solid; BORDER-TOP: #ffffff 0px solid; FONT-SIZE: 11px; BACKGROUND: url(https://support.aspdotnetstorefront.com/themes/client_default/bluebuttonbg.gif) no-repeat; PADDING-BOTTOM: 15px; MARGIN: 0px; VERTICAL-ALIGN: middle; BORDER-LEFT: #ffffff 0px solid; WIDTH: 85px; COLOR: #000000; PADDING-TOP: 3px; BORDER-BOTTOM: #ffffff 0px solid; FONT-FAMILY: Verdana, Tahoma; HEIGHT: 21px
+}
+.orangebutton {
+	BORDER-RIGHT: #ffffff 0px solid; BORDER-TOP: #ffffff 0px solid; FONT-SIZE: 11px; BACKGROUND: url(https://support.aspdotnetstorefront.com/themes/client_default/orangebuttonbg.gif) no-repeat; PADDING-BOTTOM: 15px; MARGIN: 0px; VERTICAL-ALIGN: middle; BORDER-LEFT: #ffffff 0px solid; WIDTH: 85px; COLOR: #000000; PADDING-TOP: 3px; BORDER-BOTTOM: #ffffff 0px solid; FONT-FAMILY: Verdana, Tahoma; HEIGHT: 21px
+}
+.yellowbutton {
+	BORDER-RIGHT: #ffffff 0px solid; BORDER-TOP: #ffffff 0px solid; FONT-SIZE: 11px; BACKGROUND: url(https://support.aspdotnetstorefront.com/themes/client_default/yellowbuttonbg.gif) no-repeat; PADDING-BOTTOM: 15px; MARGIN: 0px; VERTICAL-ALIGN: middle; BORDER-LEFT: #ffffff 0px solid; WIDTH: 64px; COLOR: #000000; PADDING-TOP: 3px; BORDER-BOTTOM: #ffffff 0px solid; FONT-FAMILY: Verdana, Tahoma; HEIGHT: 21px
+}
+.yellowbuttonbig {
+	BORDER-RIGHT: #ffffff 0px solid; BORDER-TOP: #ffffff 0px solid; FONT-SIZE: 11px; BACKGROUND: url(https://support.aspdotnetstorefront.com/themes/client_default/yellowbuttonbigbg.gif) no-repeat; PADDING-BOTTOM: 15px; MARGIN: 0px; VERTICAL-ALIGN: middle; BORDER-LEFT: #ffffff 0px solid; WIDTH: 100px; COLOR: #000000; PADDING-TOP: 3px; BORDER-BOTTOM: #ffffff 0px solid; FONT-FAMILY: Verdana, Tahoma; HEIGHT: 21px; ALIGN: center
+}
+.commentrow1 {
+	BORDER-RIGHT: #ffe6b8 0px solid; PADDING-RIGHT: 2px; BORDER-TOP: #ffe6b8 0px solid; PADDING-LEFT: 2px; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; MARGIN: 2px; BORDER-LEFT: #ffe6b8 0px solid; WIDTH: 99%; COLOR: #333333; PADDING-TOP: 2px; BORDER-BOTTOM: #ffe6b8 0px solid; FONT-FAMILY: Verdana, Tahoma; BACKGROUND-COLOR: #fffdf7
+}
+.commentrow2 {
+	BORDER-RIGHT: #fffbf2 0px solid; PADDING-RIGHT: 2px; BORDER-TOP: #fffbf2 0px solid; PADDING-LEFT: 2px; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; MARGIN: 2px; BORDER-LEFT: #fffbf2 0px solid; WIDTH: 99%; COLOR: #333333; PADDING-TOP: 2px; BORDER-BOTTOM: #fffbf2 0px solid; FONT-FAMILY: Verdana, Tahoma; BACKGROUND-COLOR: #ffffff
+}
+.commenthr {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; COLOR: #ffeecf; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: 1px; BACKGROUND-COLOR: #ffeecf; BORDER-BOTTOM-STYLE: none
+}
+.swifttext {
+	BORDER-RIGHT: #888888 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #888888 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; BORDER-LEFT: #888888 1px solid; COLOR: #000000; PADDING-TOP: 2px; BORDER-BOTTOM: #888888 1px solid; FONT-FAMILY: Verdana, Tahoma; BACKGROUND-COLOR: #ffffff
+}
+.departmentselect {
+	BORDER-RIGHT: #888888 1px solid; BORDER-TOP: #888888 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #888888 1px solid; COLOR: #000000; BORDER-BOTTOM: #888888 1px solid; FONT-FAMILY: Verdana, Tahoma; BACKGROUND-COLOR: #ffffff
+}
+.swifttextarea {
+	BORDER-RIGHT: #888888 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #888888 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; BORDER-LEFT: #888888 1px solid; WIDTH: 100%; COLOR: #000000; PADDING-TOP: 2px; BORDER-BOTTOM: #888888 1px solid; FONT-FAMILY: Verdana, Tahoma; BACKGROUND-COLOR: #ffffff
+}
+.swifttimer {
+	BORDER-RIGHT: #ffffff 0px solid; PADDING-RIGHT: 5px; BORDER-TOP: #ffffff 0px solid; FONT-SIZE: 11px; BORDER-LEFT: #ffffff 0px solid; WIDTH: 50px; COLOR: #000000; BORDER-BOTTOM: #ffffff 0px solid; FONT-FAMILY: Verdana, Tahoma; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: right
+}
+.navitem {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-SIZE: 11px; PADDING-BOTTOM: 4px; COLOR: #000000; PADDING-TOP: 4px; BORDER-BOTTOM: #f5f5f5 1px solid; FONT-FAMILY: Verdana, Tahoma; BACKGROUND-COLOR: #fefefe
+}
+.navitemhover {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-SIZE: 11px; PADDING-BOTTOM: 4px; COLOR: #476ca4; PADDING-TOP: 4px; BORDER-BOTTOM: #f5f5f5 1px solid; FONT-FAMILY: Verdana, Tahoma; BACKGROUND-COLOR: #fff8e9
+}
+.swiftpostmessage {
+	BORDER-RIGHT: #888888 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #888888 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 12px; PADDING-BOTTOM: 2px; OVERFLOW: auto; BORDER-LEFT: #888888 1px solid; WIDTH: 98%; COLOR: #000000; PADDING-TOP: 2px; BORDER-BOTTOM: #888888 1px solid; FONT-FAMILY: Verdana, Tahoma; HEIGHT: 40px; BACKGROUND-COLOR: #ffffff
+}
+.swiftsendbutton {
+	BORDER-RIGHT: #3894e5 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #3894e5 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 12px; BACKGROUND: url(https://support.aspdotnetstorefront.com/themes/client_default/sendbuttonbg.gif) #ffffff; PADDING-BOTTOM: 2px; BORDER-LEFT: #3894e5 1px solid; WIDTH: 98%; COLOR: #000000; PADDING-TOP: 2px; BORDER-BOTTOM: #3894e5 1px solid; FONT-FAMILY: Verdana, Tahoma; HEIGHT: 40px
+}
+.mediumtext {
+	FONT-SIZE: 12px; COLOR: #333333; FONT-FAMILY: Verdana, Arial, Helvetica
+}
+.articlepreview {
+	FONT-SIZE: 11px; COLOR: #cccccc; FONT-FAMILY: Verdana, Arial, Helvetica
+}
+.dlitempreview {
+	FONT-SIZE: 11px; COLOR: #606060; FONT-FAMILY: Verdana, Arial, Helvetica
+}
+.smalltext {
+	FONT-SIZE: 11px; COLOR: #333333; FONT-FAMILY: Verdana, Arial, Helvetica
+}
+.ticketpostname {
+	FONT-SIZE: 18px; COLOR: #333333; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica
+}
+.articletitle {
+	FONT-SIZE: 18px; COLOR: #333333; FONT-FAMILY: Trebuchet MS, Verdana, Arial, Helvetica
+}
+.printabletext {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica; LETTER-SPACING: 2px
+}
+.usertyping {
+	FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial
+}
+.error {
+	FONT-SIZE: 11px; COLOR: #e55838; FONT-FAMILY: Verdana, Arial
+}
+.title {
+	FONT-SIZE: 14px; COLOR: #277dc9; FONT-FAMILY: Trebuchet MS, Verdana, Arial
+}
+.body {
+	FONT-SIZE: 11px; COLOR: #333333; FONT-FAMILY: Verdana, Arial
+}
+.searchtext {
+	BORDER-RIGHT: #888888 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #888888 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; MARGIN: 0px; VERTICAL-ALIGN: middle; BORDER-LEFT: #888888 1px solid; WIDTH: 140px; COLOR: #000000; PADDING-TOP: 2px; BORDER-BOTTOM: #888888 1px solid; FONT-FAMILY: Verdana, Tahoma; BACKGROUND-COLOR: #ffffff
+}
+.logintext {
+	BORDER-RIGHT: #888888 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #888888 1px solid; PADDING-LEFT: 18px; FONT-SIZE: 11px; BACKGROUND: url(https://support.aspdotnetstorefront.com/themes/client_default/icon_user.gif) #ffffff no-repeat 1px 1px; PADDING-BOTTOM: 2px; MARGIN: 0px; VERTICAL-ALIGN: middle; BORDER-LEFT: #888888 1px solid; WIDTH: 123px; COLOR: #000000; PADDING-TOP: 3px; BORDER-BOTTOM: #888888 1px solid; FONT-FAMILY: Verdana, Tahoma
+}
+.loginpassword {
+	BORDER-RIGHT: #888888 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #888888 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 11px; PADDING-BOTTOM: 2px; MARGIN: 0px; VERTICAL-ALIGN: middle; BORDER-LEFT: #888888 1px solid; WIDTH: 140px; COLOR: #000000; PADDING-TOP: 3px; BORDER-BOTTOM: #888888 1px solid; FONT-FAMILY: Verdana, Tahoma; BACKGROUND-COLOR: #ffffff
+}
+.searchselect {
+	BORDER-RIGHT: #888888 1px solid; BORDER-TOP: #888888 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #888888 1px solid; WIDTH: 100%; COLOR: #000000; BORDER-BOTTOM: #888888 1px solid; FONT-FAMILY: Verdana, Tahoma; BACKGROUND-COLOR: #ffffff
+}
+.languageselect {
+	BORDER-RIGHT: #888888 1px solid; BORDER-TOP: #888888 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #888888 1px solid; WIDTH: 120px; COLOR: #000000; BORDER-BOTTOM: #888888 1px solid; FONT-FAMILY: Verdana, Tahoma; BACKGROUND-COLOR: #efefef
+}
+FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.borderrow1 {
+	BACKGROUND-COLOR: #6393df
+}
+.qbrow1 {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica; BACKGROUND-COLOR: #ffffff
+}
+.qbrow2 {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica; BACKGROUND-COLOR: #fafcff
+}
+.sectiontitlebg {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 11px; BACKGROUND: url(https://support.aspdotnetstorefront.com/themes/client_default/navtitlebg.gif) #ffffff repeat-x left top; PADDING-BOTTOM: 0px; COLOR: #333333; PADDING-TOP: 0px; FONT-FAMILY: Verdana, Arial, Helvetica
+}
+.qbtitle {
+	PADDING-RIGHT: 2px; BORDER-TOP: #90a0b0 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 11px; BACKGROUND: url(https://support.aspdotnetstorefront.com/themes/client_default/qbtablebg.gif) #eaedf4 repeat-x left top; PADDING-BOTTOM: 2px; MARGIN: 0px; COLOR: #333333; PADDING-TOP: 2px; BORDER-BOTTOM: #90a0b0 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica; HEIGHT: 16px
+}
+.rowhighlight {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica; BACKGROUND-COLOR: #fff8e9
+}
+.tabletitle {
+	PADDING-RIGHT: 2px; BORDER-TOP: #bbc0c0 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 11px; BACKGROUND: url(https://support.aspdotnetstorefront.com/themes/client_default//titletablebg.gif) #eaedf4 repeat-x left top; PADDING-BOTTOM: 2px; MARGIN: 0px; COLOR: #333333; PADDING-TOP: 2px; BORDER-BOTTOM: #bbc0c0 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica; HEIGHT: 16px
+}
+.ticketsubject {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #333333; FONT-FAMILY: Verdana, Arial, Helvetica
+}
+.row1 {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica; BACKGROUND-COLOR: #edf4ff
+}
+.row2 {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica; BACKGROUND-COLOR: #f7faff
+}
+.row3 {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica; BACKGROUND-COLOR: #fff8e9
+}
+.tborder {
+	BORDER-RIGHT: #6393df 1px solid; BORDER-TOP: #6393df 1px solid; BORDER-LEFT: #6393df 1px solid; COLOR: #000000; BORDER-BOTTOM: #6393df 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.ticketline {
+	BACKGROUND-COLOR: #96b9f0
+}
+.tickethr {
+	BORDER-TOP-WIDTH: 0px; MARGIN-TOP: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #d1dceb; HEIGHT: 1px; BACKGROUND-COLOR: #d1dceb; BORDER-RIGHT-WIDTH: 0px
+}
+.tbordererror {
+	BORDER-RIGHT: #e82a2a 1px solid; BORDER-TOP: #e82a2a 1px solid; BORDER-LEFT: #e82a2a 1px solid; COLOR: #000000; BORDER-BOTTOM: #e82a2a 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.errorbox {
+	FONT-SIZE: 11px; COLOR: #333333; FONT-FAMILY: Verdana, Arial; BACKGROUND-COLOR: #ffeaea
+}
+.tcat {
+	BACKGROUND: url(https://support.aspdotnetstorefront.com/themes/client_default//tablebg.gif) #80a9ea repeat-x left top; FONT: 12px Verdana, Tahoma; COLOR: #ffffff
+}
+.tabletitlerow {
+	BACKGROUND: url(https://support.aspdotnetstorefront.com/themes/client_default//tabledescbg.gif) #80a9ea repeat-x left top; FONT: 11px Verdana, Tahoma; COLOR: #113265
+}
+.contenttableborder {
+	BACKGROUND: #d1dceb; COLOR: #ffffff
+}
+.tborder {
+	BORDER-RIGHT: #6393df 1px solid; BORDER-TOP: #6393df 1px solid; BORDER-LEFT: #6393df 1px solid; COLOR: #000000; BORDER-BOTTOM: #6393df 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.redtext {
+	FONT-SIZE: 11px; COLOR: red; FONT-FAMILY: Verdana, Arial
+}
+.swiftselect {
+	BORDER-RIGHT: #666666 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #666666 1px solid; PADDING-LEFT: 1px; FONT-SIZE: 11px; PADDING-BOTTOM: 1px; MARGIN: 0px; VERTICAL-ALIGN: middle; BORDER-LEFT: #666666 1px solid; COLOR: #000000; PADDING-TOP: 1px; BORDER-BOTTOM: #666666 1px solid; FONT-FAMILY: Verdana, Tahoma; BACKGROUND-COLOR: #ffffff
+}
+.navpage {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 2px; FONT: 11px Tahoma, Verdana; COLOR: #ffffff; PADDING-TOP: 2px; WHITE-SPACE: nowrap; BACKGROUND-COLOR: #ffffff
+}
+.navpageselected {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 2px; FONT: 11px Tahoma, Verdana; COLOR: #000000; PADDING-TOP: 2px; WHITE-SPACE: nowrap; BACKGROUND-COLOR: #e5f3fe
+}
+.highlightpage {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 2px; FONT: bold 11px Tahoma, Verdana; COLOR: #ffffff; PADDING-TOP: 2px; WHITE-SPACE: nowrap; BACKGROUND-COLOR: #659ecb
+}
+.highlightpage A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.highlightpage A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.highlightpage A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+.highlightpage A:active {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+.newsdate {
+	FONT-SIZE: 11px; MARGIN: 0px 0px 2px; COLOR: #999999; FONT-FAMILY: Verdana, Arial, Helvetica
+}
+.irsui {
+	BORDER-RIGHT: #ffe6b8 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #ffe6b8 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #ffe6b8 1px solid; WIDTH: 100%; COLOR: #333333; PADDING-TOP: 0px; BORDER-BOTTOM: #ffe6b8 1px solid; BACKGROUND-COLOR: #fffbf2; moz-border-radius: 6px 6px 6px 6px
+}
+.irshr {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; COLOR: #ffeecf; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: 1px; BACKGROUND-COLOR: #ffeecf; BORDER-BOTTOM-STYLE: none
+}
+.swiftfieldset {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 4px; MARGIN-BOTTOM: 6px; PADDING-BOTTOM: 4px; BORDER-LEFT: #cccccc 1px solid; COLOR: #267ddc; PADDING-TOP: 4px; BORDER-BOTTOM: #cccccc 1px solid; moz-border-radius: 4px 4px 4px 4px
+}
+.swiftfieldset {
+	FONT: 11px Verdana, Tahoma
+}
+.swiftfieldset TD {
+	FONT: 11px Verdana, Tahoma
+}
+.swiftfieldset P {
+	FONT: 11px Verdana, Tahoma
+}
+.swiftfieldset LI {
+	FONT: 11px Verdana, Tahoma
+}
+.seperated_images {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px
+}
+.seperated_images2 {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px
+}
+A.menu {
+	FONT-WEIGHT: normal; COLOR: #ffffff; FONT-FAMILY: 8pt; TEXT-DECORATION: none
+}
+A.menu:link {
+	FONT-WEIGHT: normal; COLOR: #ffffff; FONT-FAMILY: 8pt; TEXT-DECORATION: none
+}
+A.menu:active {
+	FONT-WEIGHT: normal; COLOR: #ffffff; FONT-FAMILY: 8pt; TEXT-DECORATION: none
+}
+A.menu:visited {
+	FONT-WEIGHT: normal; COLOR: #ffffff; FONT-FAMILY: 8pt; TEXT-DECORATION: none
+}
+A.menu:hover {
+	FONT-WEIGHT: normal; COLOR: #ffffff; FONT-FAMILY: 8pt; TEXT-DECORATION: underline
+}
+A.top {
+	FONT-WEIGHT: bold; COLOR: #ffffff; FONT-FAMILY: 11pt; TEXT-DECORATION: none
+}
+A.top:link {
+	FONT-WEIGHT: bold; COLOR: #ffffff; FONT-FAMILY: 8pt; TEXT-DECORATION: none
+}
+A.top:active {
+	FONT-WEIGHT: bold; COLOR: #ffffff; FONT-FAMILY: 8pt; TEXT-DECORATION: none
+}
+A.top:visited {
+	FONT-WEIGHT: bold; COLOR: #ffffff; FONT-FAMILY: 8pt; TEXT-DECORATION: none
+}
+A.top:hover {
+	FONT-WEIGHT: bold; COLOR: #ffffff; FONT-FAMILY: 8pt; TEXT-DECORATION: underline
+}
+.smalltext2 {
+	FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica;
+	font-weight: 700;
+}
+body
+{
+	background-color:#3D444C;
+}

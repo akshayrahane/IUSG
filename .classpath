@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.j2eedt.core.MYECLIPSE_JAVAEE_5_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/Select project/A New Algorithm for Inferring User Search/Code/lib/classes12.jar"/>
+	<classpathentry kind="lib" path="D:/Select project/A New Algorithm for Inferring User Search/Code/lib/commons-beanutils-1.7.jar"/>
+	<classpathentry kind="lib" path="D:/Select project/A New Algorithm for Inferring User Search/Code/lib/commons-io11800.jar"/>
+	<classpathentry kind="lib" path="D:/Select project/A New Algorithm for Inferring User Search/Code/lib/commons-lang-2.5.jar"/>
+	<classpathentry kind="lib" path="D:/Select project/A New Algorithm for Inferring User Search/Code/lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="D:/Select project/A New Algorithm for Inferring User Search/Code/lib/jcommon-1.0.17.jar"/>
+	<classpathentry kind="lib" path="D:/Select project/A New Algorithm for Inferring User Search/Code/lib/jfreechart-1.0.14.jar"/>
+	<classpathentry kind="lib" path="D:/Select project/A New Algorithm for Inferring User Search/Code/lib/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="D:/Select project/A New Algorithm for Inferring User Search/Code/lib/poi-3.2-FINAL.jar"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>

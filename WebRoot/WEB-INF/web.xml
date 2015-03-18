@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<servlet>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>InitServlet</servlet-name>
+		<servlet-class>com.rmadss.util.InitServlet</servlet-class>
+		<init-param>
+			<param-name>config</param-name>
+			<param-value>/WEB-INF/config/system.properties</param-value>
+		</init-param>
+		<load-on-startup>0</load-on-startup>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>InitServlet</servlet-name>
+		<url-pattern>/InitServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>AddWordIndexAction</servlet-name>
+		<servlet-class>com.rmadss.action.AddWordIndexAction</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>ViewKeywordListAction</servlet-name>
+		<servlet-class>com.rmadss.action.ViewKeywordListAction</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>AddWordIndexDocumentsAction</servlet-name>
+		<servlet-class>com.rmadss.action.AddWordIndexDocumentsAction</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>KeywordSearchAction</servlet-name>
+		<servlet-class>com.rmadss.action.KeywordSearchAction</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>LoginAction</servlet-name>
+		<servlet-class>com.rmadss.action.LoginAction</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>KeywordSubmitAction</servlet-name>
+		<servlet-class>com.rmadss.action.KeywordSubmitAction</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>KeywordSubmitAction1</servlet-name>
+		<servlet-class>com.rmadss.action.KeywordSubmitAction1</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>ViewSeachingMetaDataRecordsAction</servlet-name>
+		<servlet-class>com.rmadss.action.ViewSeachingMetaDataRecordsAction</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>ChangePasswordAction</servlet-name>
+		<servlet-class>com.rmadss.action.ChangePasswordAction</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>CheckUserAction</servlet-name>
+		<servlet-class>com.rmadss.action.CheckUserAction</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>LogoutAction</servlet-name>
+		<servlet-class>com.rmadss.action.LogoutAction</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>NewPassword</servlet-name>
+		<servlet-class>com.rmadss.action.NewPassword</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>NewPasswordAction</servlet-name>
+		<servlet-class>com.rmadss.action.NewPasswordAction</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>RecoverPasswordAction</servlet-name>
+		<servlet-class>com.rmadss.action.RecoverPasswordAction</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>RegisterAction</servlet-name>
+		<servlet-class>com.rmadss.action.RegisterAction</servlet-class>
+	</servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ViewMetaDataKeywordListAction</servlet-name>
+    <servlet-class>com.rmadss.action.ViewMetaDataKeywordListAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddMetaDataInterfaceIndexAction</servlet-name>
+    <servlet-class>com.rmadss.action.AddMetaDataInterfaceIndexAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MainDataViewKeyWordsAction</servlet-name>
+    <servlet-class>com.rmadss.action.MainDataViewKeyWordsAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ViewInterfaceKeywordDataAction</servlet-name>
+    <servlet-class>com.rmadss.action.ViewInterfaceKeywordDataAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddMainDataAction</servlet-name>
+    <servlet-class>com.rmadss.action.AddMainDataAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RankingSearchAction</servlet-name>
+    <servlet-class>com.rmadss.action.RankingSearchAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GraphKeywordSubmitAction</servlet-name>
+    <servlet-class>com.rmadss.action.GraphKeywordSubmitAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GraphRankingSearchAction</servlet-name>
+    <servlet-class>com.rmadss.action.GraphRankingSearchAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GraphViewSeachingMetaDataRecordsAction</servlet-name>
+    <servlet-class>com.rmadss.action.GraphViewSeachingMetaDataRecordsAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SendRediredtAction</servlet-name>
+    <servlet-class>com.rmadss.action.SendRediredtAction</servlet-class>
+  </servlet>
+
+
+
+
+
+
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchResultAction</servlet-name>
+    <servlet-class>com.rmadss.action.SearchResultAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchResultAction1</servlet-name>
+    <servlet-class>com.rmadss.action.SearchResultAction1</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RefreshSessionAction</servlet-name>
+    <servlet-class>com.rmadss.action.RefreshSessionAction</servlet-class>
+  </servlet>
+  
+
+ <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchDataAction</servlet-name>
+    <servlet-class>com.rmadss.action.SearchDataAction</servlet-class>
+  </servlet>
+
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchDataAction1</servlet-name>
+    <servlet-class>com.rmadss.action.SearchDataAction1</servlet-class>
+  </servlet>
+
+
+
+
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RemoveStopWordAction</servlet-name>
+    <servlet-class>com.rmadss.action.RemoveStopWordAction</servlet-class>
+  </servlet>
+
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StemmingAction</servlet-name>
+    <servlet-class>com.rmadss.action.StemmingAction</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ParaGraphAction</servlet-name>
+    <servlet-class>com.rmadss.action.ParaGraphAction</servlet-class>
+  </servlet>
+
+
+
+     <servlet-mapping>
+		<servlet-name>ParaGraphAction</servlet-name>
+		<url-pattern>/ParaGraphAction</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+    <servlet-mapping>
+		<servlet-name>StemmingAction</servlet-name>
+		<url-pattern>/StemmingAction</url-pattern>
+	</servlet-mapping>
+
+
+
+    <servlet-mapping>
+		<servlet-name>RemoveStopWordAction</servlet-name>
+		<url-pattern>/RemoveStopWordAction</url-pattern>
+	</servlet-mapping>
+
+   <servlet-mapping>
+		<servlet-name>SearchDataAction1</servlet-name>
+		<url-pattern>/SearchDataAction1</url-pattern>
+	</servlet-mapping>
+
+
+  <servlet-mapping>
+		<servlet-name>SearchDataAction</servlet-name>
+		<url-pattern>/SearchDataAction</url-pattern>
+	</servlet-mapping>
+
+
+
+<servlet-mapping>
+		<servlet-name>RefreshSessionAction</servlet-name>
+		<url-pattern>/RefreshSessionAction</url-pattern>
+	</servlet-mapping>
+
+  <servlet-mapping>
+		<servlet-name>SearchResultAction</servlet-name>
+		<url-pattern>/SearchResultAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SearchResultAction1</servlet-name>
+		<url-pattern>/SearchResultAction1</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>RegisterAction</servlet-name>
+		<url-pattern>/RegisterAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>RecoverPasswordAction</servlet-name>
+		<url-pattern>/RecoverPasswordAction</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet-mapping>
+		<servlet-name>LoginAction</servlet-name>
+		<url-pattern>/LoginAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LogoutAction</servlet-name>
+		<url-pattern>/LogoutAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>NewPassword</servlet-name>
+		<url-pattern>/NewPassword</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>NewPasswordAction</servlet-name>
+		<url-pattern>/NewPasswordAction</url-pattern>
+	</servlet-mapping>
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>CheckUserAction</servlet-name>
+		<url-pattern>/CheckUserAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LoginAction</servlet-name>
+		<url-pattern>/LoginAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddWordIndexAction</servlet-name>
+		<url-pattern>/AddWordIndexAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ViewKeywordListAction</servlet-name>
+		<url-pattern>/ViewKeywordListAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AddWordIndexDocumentsAction</servlet-name>
+		<url-pattern>/AddWordIndexDocumentsAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>KeywordSearchAction</servlet-name>
+		<url-pattern>/KeywordSearchAction</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>KeywordSubmitAction</servlet-name>
+		<url-pattern>/KeywordSubmitAction</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>KeywordSubmitAction1</servlet-name>
+		<url-pattern>/KeywordSubmitAction1</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>ViewSeachingMetaDataRecordsAction</servlet-name>
+		<url-pattern>/ViewSeachingMetaDataRecordsAction</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ChangePasswordAction</servlet-name>
+		<url-pattern>/ChangePasswordAction</url-pattern>
+	</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewMetaDataKeywordListAction</servlet-name>
+    <url-pattern>/ViewMetaDataKeywordListAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddMetaDataInterfaceIndexAction</servlet-name>
+    <url-pattern>/AddMetaDataInterfaceIndexAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MainDataViewKeyWordsAction</servlet-name>
+    <url-pattern>/MainDataViewKeyWordsAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewInterfaceKeywordDataAction</servlet-name>
+    <url-pattern>/ViewInterfaceKeywordDataAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddMainDataAction</servlet-name>
+    <url-pattern>/AddMainDataAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RankingSearchAction</servlet-name>
+    <url-pattern>/RankingSearchAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GraphKeywordSubmitAction</servlet-name>
+    <url-pattern>/GraphKeywordSubmitAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GraphRankingSearchAction</servlet-name>
+    <url-pattern>/GraphRankingSearchAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GraphViewSeachingMetaDataRecordsAction</servlet-name>
+    <url-pattern>/GraphViewSeachingMetaDataRecordsAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SendRediredtAction</servlet-name>
+    <url-pattern>/SendRediredtAction</url-pattern>
+  </servlet-mapping>
+
+	<welcome-file-list>
+		<welcome-file>LoginForm.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
