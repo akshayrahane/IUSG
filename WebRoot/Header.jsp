@@ -11,9 +11,15 @@
 
 
 <html>
-
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/new1.css">
+	</head>
 	<body>
-		<img src="./images/header.JPG" align='top' height='170' width='890' />
+		<div class="header">
+				<a href="home.html"><img src="img/explore_logo.png" alt="eXplore"/></a>
+				<h1>Welcome to eXplore</h1>
+			</div>
+			
 		<c:choose>
 			<c:when test="${sessionScope.role=='admin'}">
 				<jsp:include page="./AdminMenu.jsp" />

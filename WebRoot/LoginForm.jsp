@@ -15,7 +15,7 @@ font-size:8pt
 }
         </style>
 	</head>
-	<body bgcolor="#F5FFFA">
+	<body>
 	
 
  <jsp:include page="Header.jsp"></jsp:include>
@@ -24,13 +24,13 @@ font-size:8pt
        
         <form action="<%=request.getContextPath()+"/LoginAction"%>" method=post name="login">
         
-        <table  border="0" align="center"  bgcolor="#F5FFFA" width="80%">
+        <table  border="0" align="center" width="80%">
                <tr>
-               <td  background="#F5FFFA"> <img src="<%=request.getContextPath()+"/images/login.jpg"%>"  height="197" width="300"/>
+               <td  background="#F5FFFA"> <img src="<%=request.getContextPath()+"/img/log.jpg"%>"  height="300" width="300"/>
                  </td>
                  <td height="120" align="right"></td>
                  <td><table border="0" align="center" width="304" height="257">
-                <tr align="center"><strong><h3><font color="#800080">Login Form</font></h3></strong>
+                <tr align="center"><strong><h3><font align="center" color="black" >Login Form</font></h3></strong>
  	</tr>
                    <tr>
                      <td ><font color="#CD5C5C" size=""><b>UserID</b></font></td>
@@ -44,9 +44,9 @@ font-size:8pt
                     <tr>
                      <td colspan="2">
                        <div align="center" class="style11">
-                         <input type="image" name="Submit"src="images/sign.png" height="50" width="120">
+                         <input type="image" name="Submit"src="img/login.png" height="50" width="120">
                           &nbsp;
-                           <input type="image" name="reset"src="images/clear.png" height="50" width="100">
+                           <input type="image" name="reset"src="img/resetbutton.png" height="50" width="120">
                          </div> 
                          </tr>   
                                            <tr><br/>
