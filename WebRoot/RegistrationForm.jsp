@@ -29,23 +29,7 @@
 </script>
 
 
-
-
-			<style type="text/css">
-.Title {
-	font-family: Verdana;
-	font-weight: bold;
-	font-size: 8pt
-}
-
-.Title1 {
-	font-family: Verdana;
-	font-weight: bold;
-	font-size: 8pt
-}
-</style>
-
-			<script type="text/javascript">
+<script type="text/javascript">
 function loadXMLDoc() {
 	var xmlhttp;
 	var userName = document.getElementById("userName").value;
@@ -72,7 +56,6 @@ function loadXMLDoc() {
 			<br />
 			<center>
 				<h3>
-
 					<span class=subHead><br />Registration Form </span>
 				</h3>
 			</center>
@@ -85,8 +68,8 @@ function loadXMLDoc() {
 					value="<%=request.getServerName()%>" />
 				<br />
 
-				<table border='0' align="center" width=70%>
-					<th colspan="6" bgcolor="#999933">
+				<table border='0' align="center" width=100%>
+					<th colspan="6" bgcolor="#47AB69" style="width:100%">
 						Account Details
 					</th>
 					<tr></tr>
@@ -237,7 +220,7 @@ function loadXMLDoc() {
 
 						<tr></tr>
 						<tr></tr>
-						<th colspan="6" bgcolor="#999933">
+						<th colspan="6" bgcolor="#47AB69">
 							Personal Details
 						</th>
 						<tr></tr>
@@ -323,7 +306,7 @@ function loadXMLDoc() {
 							</tr>
 							<tr></tr>
 							<tr></tr>
-							<th colspan="6" bgcolor="#999933">
+							<th colspan="6" bgcolor="#47AB69">
 								<center>
 									Contact Details
 								</center>

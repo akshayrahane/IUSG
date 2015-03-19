@@ -31,32 +31,16 @@ window.location.href='http://'+host+':'+port+'/IndianWildLife/CheckUserAction?us
 
 } 
 </script>
-
-
-
-		<style type="text/css">
-.Title {
-	font-family: Verdana;
-	font-weight: bold;
-	font-size: 8pt
-}
-
-.Title1 {
-	font-family: Verdana;
-	font-weight: bold;
-	font-size: 8pt
-}
-</style>
 	</head>
 	<body>
 
 		<jsp:include page="Header.jsp"></jsp:include>
 		<br />
 		<center>
-			<h3>
+			<h2>
 
 				<span class=subHead><br />Recover Password Form </span>
-			</h3>
+			</h2>
 		</center>
 
 		<form action="RecoverPasswordAction" name="register" method='post'
@@ -78,7 +62,7 @@ window.location.href='http://'+host+':'+port+'/IndianWildLife/CheckUserAction?us
 
 				<tr>
 					<td align='right'>
-						<b>SecurityQuestion :</b>
+						<b>Security Question :</b>
 					</td>
 					<td>
 						<select name="squest">
@@ -147,10 +131,10 @@ window.location.href='http://'+host+':'+port+'/IndianWildLife/CheckUserAction?us
 				</tr>
 				<tr>
 					<td align='right'>
-						<input type="submit" name="Submit" value="submit" />
+						<input type="submit" name="Submit" value="Submit" />
 					</td>
 					<td align='left'>
-						<input type="reset" name="reset" value="reset" />
+						<input type="reset" name="reset" value="Reset" />
 					</td>
 				</tr>
 			</table>

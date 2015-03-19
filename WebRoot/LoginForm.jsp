@@ -30,14 +30,14 @@ font-size:8pt
                  </td>
                  <td height="120" align="right"></td>
                  <td><table border="0" align="center" width="304" height="257">
-                <tr align="center"><strong><h3><font align="center" color="black" >Login Form</font></h3></strong>
+                <tr align="center"><strong><h2><font align="center" color="black" >Login Form</font></h2></strong>
  	</tr>
                    <tr>
-                     <td ><font color="#CD5C5C" size=""><b>UserID</b></font></td>
+                     <td ><font color="red" size=""><b>UserID</b></font></td>
                       <td ><input type="text" name="username"> </td>
                       </tr>
                    <tr>
-                     <td><font color="#CD5C5C" size=""><b>Password</b></font></td>
+                     <td><font color="red" size=""><b>Password</b></font></td>
                       <td>
                         <input type="password" name="password"><br><br>                      </td>
                       </tr>
@@ -52,7 +52,7 @@ font-size:8pt
                                            <tr><br/>
                                                                
                          <td><div>
-                         <a href="./RegistrationForm.jsp"><font color="#228B22" size="3" style="verdana">NewUserSignUp??</font></a>
+                         <a href="./RegistrationForm.jsp"><font color="#47AB69" size="3" style="verdana">NewUserSignUp??</font></a>
                          
                          </div></td>
                          
@@ -61,7 +61,7 @@ font-size:8pt
                
                       <tr>                    
                          <td><div>
-                         <a href="./Recoverpassword.jsp"><font color="#228B22" size="3" style="verdana">ForgotPassword??</font></a>
+                         <a href="./Recoverpassword.jsp"><font color="#47AB69" size="3" style="verdana">ForgotPassword??</font></a>
                          
                          </div></td>
                          
