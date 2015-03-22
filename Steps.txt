@@ -1,0 +1,14 @@
+0. conn username/password;
+1. create user search identified by search;
+2. grant dba to search;
+3. run "imp.exe"
+4. username: search password: search
+5. give path of search.dmp file
+6. enter
+7. no
+8. yes
+9. yes
+10. yes
+11. yes
+12. SQL cmd: conn search/search
+13. select * from tab;
