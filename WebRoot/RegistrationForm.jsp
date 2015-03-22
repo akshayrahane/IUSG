@@ -81,7 +81,7 @@ function loadXMLDoc() {
 						<td width="303">
 
 							<input type="text" id="userName" name="userName"
-								onkeyup="loadXMLDoc()">
+								onblur="loadXMLDoc()">
 								<span id="err"> </span>
 						</td>
 						<td></td>

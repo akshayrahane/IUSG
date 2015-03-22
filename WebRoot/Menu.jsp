@@ -68,9 +68,7 @@
 			<li class="top">
 				<a href="#" class="top_link"><span></span> </a>
 			</li>
-			
-
-			<li class="top">
+			<li class="top" style="float:right">
 				<a href="./LoginForm.jsp" class="top_link"><span>Login</span> </a>
 			</li>
 
