@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-module
   type="WEB"
-  name="IUSG"
+  name="SearchGoalWithFeedbackSession"
   id="myeclipse.1357110226703"
   context-root="/RankingModelAdaptationforDomain-SpecificSearch"
   j2ee-spec="5.0"
-  archive="IUSG.war">
+  archive="SearchGoalWithFeedbackSession.war">
   <attributes>
     <attribute name="webrootdir" value="WebRoot" />
   </attributes>
